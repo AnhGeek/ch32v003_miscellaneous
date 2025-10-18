@@ -125,13 +125,13 @@ int main(void)
     
     
     GPIO_Toggle_INIT();
-    TIM2_PWMOut_Init( 1000, 480-1, 948 );
+    TIM2_PWMOut_Init( 1000, 480-1, 950 );
     //TIM2_PWMOut_Init( 100, 120-1, 50);
 
     while(1)
     {
         
-        //TIM2->CH4CVR = 948; // Push
+        //TIM2->CH4CVR = 950; // Push
         GPIO_WriteBit(GPIOD, GPIO_Pin_2, 1);
         Delay_Ms(500);
         TIM2->CH4CVR = 935; // Release

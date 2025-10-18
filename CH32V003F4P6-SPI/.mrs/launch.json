@@ -4,8 +4,8 @@
 		{
 			"type": "mrs-debugger",
 			"request": "launch",
-			"name": "ch32v003_sg90",
-			"cwd": "c:\\Users\\HoangAnh\\Documents\\ch32v003_miscellaneous\\ch32v003_sg90",
+			"name": "CH32V003F4P6-SPI",
+			"cwd": "c:\\Users\\HoangAnh\\mounriver-studio-projects\\CH32V003F4P6-SPI",
 			"openOCDCfg": {
 				"useLocalOpenOCD": true,
 				"executable": "c:/MounRiver/MounRiver_Studio2/resources/app/resources/win32/components/WCH/OpenOCD/OpenOCD/bin/openocd.exe",
@@ -39,8 +39,8 @@
 					"additionalCommands": []
 				},
 				"loadedFiles": {
-					"executableFile": "c:\\Users\\HoangAnh\\Documents\\ch32v003_miscellaneous\\ch32v003_sg90\\obj\\ch32v003_sg90.elf",
-					"symbolFile": "c:\\Users\\HoangAnh\\Documents\\ch32v003_miscellaneous\\ch32v003_sg90\\obj\\ch32v003_sg90.elf",
+					"executableFile": "c:\\Users\\HoangAnh\\mounriver-studio-projects\\CH32V003F4P6-SPI\\obj\\CH32V003F4P6-SPI.elf",
+					"symbolFile": "c:\\Users\\HoangAnh\\mounriver-studio-projects\\CH32V003F4P6-SPI\\obj\\CH32V003F4P6-SPI.elf",
 					"executableFileOffset": 0,
 					"symbolFileOffset": 0
 				},
@@ -48,7 +48,7 @@
 					"runReset": true,
 					"runResetType": "halt",
 					"additionalCommands": [],
-					"setBreakAt": "handle_reset",
+					"setBreakAt": "",
 					"continue": true,
 					"setProgramCounterAt": 0
 				},
